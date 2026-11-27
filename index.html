@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Jason Alfarra</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "DM Sans", sans-serif;
+      color: white;
+      background:
+        linear-gradient(rgba(20, 8, 30, 0.55), rgba(20, 8, 30, 0.9)),
+        linear-gradient(135deg, #ff6b9d, #8b42a8, #25133f);
+      overflow-x: hidden;
+    }
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .tag {
+      color: #ffb4d0;
+      letter-spacing: 5px;
+      font-size: 12px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-family: "Anton", sans-serif;
+      font-size: clamp(55px, 12vw, 110px);
+      line-height: 1;
+      text-transform: uppercase;
+      text-shadow: 5px 5px 0 #6c277f;
+    }
+
+    h1 span {
+      display: block;
+      color: #ffb1cc;
+    }
+
+    .subtitle {
+      margin-top: 20px;
+      color: #f7dce9;
+      font-size: 15px;
+      max-width: 500px;
+      line-height: 1.7;
+    }
+
+    /* صورة Jason و Lucia */
+    .characters {
+      width: min(850px, 100%);
+      margin: 35px auto;
+      border: 2px solid rgba(255,255,255,0.35);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 15px 50px rgba(0,0,0,0.4);
+    }
+
+    .characters img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .message {
+      max-width: 650px;
+      padding: 35px 28px;
+      background: rgba(20, 10, 30, 0.65);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 18px;
+      backdrop-filter: blur(10px);
+      line-height: 2;
+    }
+
+    .message h2 {
+      font-family: "Anton", sans-serif;
+      font-size: 30px;
+      color: #ffb1cc;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+    }
+
+    .message p {
+      color: #f8eaf1;
+      font-size: 15px;
+    }
+
+    .heart {
+      color: #ff8eb7;
+      font-size: 30px;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 35px;
+      color: #e5c6dd;
+      font-size: 11px;
+      letter-spacing: 3px;
+    }
+
+    @media (max-width: 600px) {
+      .message {
+        padding: 25px 20px;
+      }
+
+      .message p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="tag">A special day for a special player</div>
+
+    <h1>
+      Happy Birthday
+      <span>Jason</span>
+      Alfarra
+    </h1>
+
+    <p class="subtitle">
+      For the guy who's been part of the GTA world since day one.
+      Today, you're the main character.
+    </p>
+
+    <!-- غيري رابط الصورة هنا -->
+    <div class="characters">
+      <img
+      src="images/Jason Alfarra.jpg"
+        alt="Jason and Lucia from GTA VI"
+        onerror="this.parentElement.style.display='none';"
+      >
+    </div>
+
+    <section class="message">
+      <h2>To Dodi ❤️</h2>
+
+      <p>
+        I don't know how someone can become this special
+        in such a short time, but somehow you did.
+        <br><br>
+
+        Being around you feels familiar, like I've known
+        you for years. You make ordinary moments feel
+        different, and I'm genuinely happy that our paths crossed.
+        <br><br>
+
+        I hope this new year brings you happiness,
+        success, peace, and everything you've been wishing for.
+        I hope life becomes a little gentler with you,
+        and I hope I can be one of the reasons you smile.
+        <br><br>
+
+        I'm really glad you exist.
+        <br>
+        Happy Birthday, Hamoudi ❤️
+      </p>
+
+      <div class="heart">Yours Loly ♡</div>
+    </section>
+
+    <footer>
+      VICE CITY • LOS SANTOS • GTA VI
+    </footer>
+
+  </main>
+
+</body>
+</html>
